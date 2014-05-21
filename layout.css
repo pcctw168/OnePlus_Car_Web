@@ -87,11 +87,39 @@ body{
 	width:200px;
 	float:left;
 	margin-right:15px;
+	background-image:url(images/sidebar1_bg.jpg);
+	background-repeat:no-repeat;
 }
-#slidebar1 ul{}
-#slidebar1 li{}
-#slidebar1 li a{}
-#slidebar1 h2{}
+#slidebar1 ul{
+	width:100px;
+	margin:0 auto;
+}
+#slidebar1 li{
+	list-style-type:none;
+}
+#slidebar1 li a{
+	display:block;
+	width:100px;
+	height:32px;
+	text-indent:-9999px;
+	margin:6px 0;
+}
+#slidebar1 li.classic a{
+	background-image:url(images/sidebar1_icon1.gif);
+}
+#slidebar1 li.fashion a{
+	background-image:url(images/sidebar1_icon2.gif);
+}
+#slidebar1 li.speed a{
+	background-image:url(images/sidebar1_icon3.gif);
+}
+#slidebar1 h2{
+	background-image:url(images/sidebar1_logoinfo.jpg);
+	width:155px;
+	height:70px;
+	text-indent:-9999px;
+	margin:6px auto 6px auto;
+}
 
 /* ====== 內容區 ====== */
 #content{
