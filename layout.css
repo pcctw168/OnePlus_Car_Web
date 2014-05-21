@@ -81,3 +81,32 @@ body{
 	left: 450px;
 	top: 99px;
 }
+
+/* ====== 左欄區 ====== */
+#slidebar1{
+	width:200px;
+	float:left;
+	margin-right:15px;
+}
+#slidebar1 ul{}
+#slidebar1 li{}
+#slidebar1 li a{}
+#slidebar1 h2{}
+
+/* ====== 內容區 ====== */
+#content{
+	width:410px;
+	float:left;
+	margin-right:15px;
+}
+
+/* ====== 右欄區 ====== */
+#slidebar2{
+	width:340px;
+	float:right;
+}
+
+/* ====== 版權宣告區 ====== */
+#footer{
+	clear:both;
+}
