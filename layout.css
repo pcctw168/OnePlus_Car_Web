@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+h1,h2,h3{ behavior: url(iepngfix.htc) }
 
 *{
 	padding:0;
@@ -142,6 +143,7 @@ body{
 #content ul{
 	float:left;
 	margin-bottom:20px;
+	padding-left:25px;
 }
 #content li{
 	font-size:12px;
