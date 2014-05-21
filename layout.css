@@ -127,6 +127,33 @@ body{
 	float:left;
 	margin-right:15px;
 }
+#content h2{
+	background-image:url(images/content_carlife.gif);
+	width:220px;
+	height:30px;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
+#content img{
+	float:left;
+	margin-right:25px;
+}
+#content ul{
+	float:left;
+	margin-bottom:20px;
+}
+#content li{
+	font-size:12px;
+	line-height:22px;
+	border-bottom:#CCC 1px dashed;
+}
+#content h3{
+	clear:both;
+	background-image:url(images/content_ad.jpg);
+	width:400px;
+	height:110px;
+	text-indent:-9999px;
+}
 
 /* ====== 右欄區 ====== */
 #slidebar2{
