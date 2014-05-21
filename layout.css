@@ -126,6 +126,7 @@ body{
 	width:410px;
 	float:left;
 	margin-right:15px;
+	padding-bottom:30px;
 }
 #content h2{
 	background-image:url(images/content_carlife.gif);
@@ -190,4 +191,20 @@ body{
 /* ====== 版權宣告區 ====== */
 #footer{
 	clear:both;
+	background-color:#424242;
+	padding:10px 0 0 220px;
+	height:50px;
+}
+#footer h2{
+	background-image:url(images/footer_logo.png);
+	width:150px;
+	height:32px;
+	text-indent:-9999px;
+	float:left;
+}
+#footer h4{
+	font-size:12px;
+	color:#FFF;
+	font-weight:normal;
+	line-height:16px;
 }
