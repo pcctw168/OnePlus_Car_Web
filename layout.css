@@ -16,3 +16,68 @@ body{
 	background-color:#181818;
 	color:#999;
 }
+
+/* ====== 標題區 ====== */
+#header{
+	background-image:url(images/header_bg.jpg);
+	height:340px;
+	position:relative;
+}
+#header h1{
+	background-image:url(images/header_logo.png);
+	width:230px;
+	height:60px;
+	text-indent:-9999px;
+	float:left;
+	margin:10px 60px 0 60px;
+}
+#header ul{}
+#header li{
+	float:left;
+	list-style-type:none;
+}
+#header li a{
+	display:block;
+	width:100px;
+	height:60px;
+	text-indent:-9999px;
+}
+#header li.aboutus a{
+	background-image:url(images/header_icon1_1.jpg);
+}
+#header li.aboutus a:hover{
+	background-image:url(images/header_icon1_2.jpg);
+}
+#header li.news a{
+	background-image:url(images/header_icon2_1.jpg);
+}
+#header li.news a:hover{
+	background-image:url(images/header_icon2_2.jpg);
+}
+#header li.cars a{
+	background-image:url(images/header_icon3_1.jpg);
+}
+#header li.cars a:hover{
+	background-image:url(images/header_icon3_2.jpg);
+}
+#header li.services a{
+	background-image:url(images/header_icon4_1.jpg);
+}
+#header li.services a:hover{
+	background-image:url(images/header_icon4_2.jpg);
+}
+#header li.contact a{
+	background-image:url(images/header_icon5_1.jpg);
+}
+#header li.contact a:hover{
+	background-image:url(images/header_icon5_2.jpg);
+}
+#header h3{
+	background-image: url(images/header_slogon.png);
+	width: 400px;
+	height: 120px;
+	text-indent: -9999px;
+	position: absolute;
+	left: 450px;
+	top: 99px;
+}
