@@ -160,6 +160,32 @@ body{
 	width:340px;
 	float:right;
 }
+#slidebar2 h3{
+	background-image:url(images/sidebar2_project.gif);
+	width:300px;
+	height:30px;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
+#slidebar2 table{
+	width:90%;
+	font-size:12px;
+	line-height:17px;
+	border-bottom:15px;
+}
+#slidebar2 table th{
+	font-weight:normal;
+	text-align:left;
+}
+#slidebar2 table td{
+	color:#FC0;
+}
+#slidebar2 h4{
+	background-image:url(images/sidebar2_ad.jpg);
+	width:340px;
+	height:110px;
+	text-indent:-9999px;
+}
 
 /* ====== 版權宣告區 ====== */
 #footer{
